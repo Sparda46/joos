@@ -66,5 +66,21 @@ public class ActivityMenuUtama extends AppCompatActivity {
             }
 
         });
+
+        Button button4=(Button)findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
+
+
+            public void onClick(View arg0) {
+
+                // TODO Auto-generated method stub
+
+                Intent i =new Intent(getApplicationContext(),Activity_Riwayat.class);
+
+                startActivity(i);
+
+            }
+
+        });
     }
 }
